@@ -5,11 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Funcionario extends Model
+class Filme extends Model
 {
     use HasFactory;
-    
-    protected $fillable = [ 
-        'emailFun', 'nomeFun', 'senhaFun', 'whatssappFun' ,'cpfFun'
+    protected $fillable =[
+        'nomeFilme', 'atoresFilme', 'dataLancamentoFilme','sinopseFilme','capaFilme'
     ];
 }
